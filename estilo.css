@@ -59,7 +59,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(Imgenes/WhatsApp\ Bild\ 2025-05-29\ um\ 18.34.45_50cf4ab0.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -288,22 +288,22 @@ html{
     100%{width: 89%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .Csharp{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s Csharp forwards;
 }
-@keyframes photoshop {
+@keyframes Csharp {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 70%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .SQL{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s SQL forwards;
 }
-@keyframes wordpress {
+@keyframes SQL {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .drupal{
@@ -712,4 +712,23 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+.contenedor-img {
+  width: 170px;
+  height: 200px;
+  margin: 0 auto 20px;
+  border-radius: 50% / 60%;
+  overflow: hidden;
+  border: 5px solid #00bfa6;
+  box-shadow: 0 0 15px rgba(0, 191, 166, 0.4);
+}
+
+.contenedor-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 35%;
+  display: block;
+}
+
+
 }
